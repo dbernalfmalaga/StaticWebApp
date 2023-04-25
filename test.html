@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>PDF Example by Object Tag</title>
+	 <meta  http-equiv="X-Content-Security-Policy"  content="sandbox allow-downloads allow-presentation allow-same-origin;"/>
+	 <meta  http-equiv="X-Frame-Options"  content="ALLOW-FROM https://teams.microsoft.com/" />	
+	<script src= 'https://statics.teams.cdn.office.net/sdk/v1.6.0/js/MicrosoftTeams.min.js'></script>
+  </head>
+  <body>
+		<script>
+			microsoftTeams.initialize();
+       </script>
+    <h1>PDF Example by Embed Tag</h1>
+	<embed src="./assest/sample-17714530.pdf" width="500" height="375" type="application/pdf">
+	
+	<iframe width="560" height="315" 
+       src="./assest/sample-17714530.pdf" 
+        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+  </body>
+</html>
